@@ -4,6 +4,8 @@ import time
 import ast
 
 url = sys.argv[1]
+url = str(url).split("&")[0]
+
 
 class Downloader():
 
